@@ -37,21 +37,22 @@
 
 % pour les polices accentuées francaises (avec pdfTeX)
 % décommenter pour pdflatex, commenter pour xelatex
-%\RequirePackage[utf8]{inputenc}
-%\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
 
 % font (commenter pour pdflatex, décommenter pour xelatex)
-\RequirePackage{xltxtra}
-\defaultfontfeatures{Scale=MatchLowercase}
+% \RequirePackage{xltxtra}
+% \defaultfontfeatures{Scale=MatchLowercase}
 %\setromanfont[Mapping=tex-text]{DejaVuSerif}
 %\setsansfont[Mapping=tex-text]{DejaVuSans}
-\setmonofont[Mapping=tex-text,Scale=0.8]{DejaVuSansMono}
-\setromanfont[Mapping=tex-text]{Linux Libertine O}
-\setsansfont[Mapping=tex-text]{Linux Biolinum O}
+% \setmonofont[Mapping=tex-text,Scale=0.8]{DejaVuSansMono}
+% \setromanfont[Mapping=tex-text]{Linux Libertine O}
+% \setsansfont[Mapping=tex-text]{Linux Biolinum O}
 
 
 %Selection de la langue du document
-\RequirePackage[english,frenchb]{babel}
+\usepackage{natbib}
+\RequirePackage[english,french]{babel}
 \RequirePackage[autostyle=true,english=american,french=guillemets]{csquotes}
 \MakeOuterQuote{"}
 \frenchspacing
